@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 1st step
-      - run: echo yeahh!
+        run: echo yeahh!
