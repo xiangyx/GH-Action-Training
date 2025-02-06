@@ -1,4 +1,4 @@
-name: really first action
+name: Never Run This
 
 on: workflow_dispatch
 
