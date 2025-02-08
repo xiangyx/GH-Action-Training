@@ -12,3 +12,11 @@ jobs:
         run: |
           pwd
           ls -al
+      - name: 3rd step create a file
+        run: |
+          echo "Hello World" > hello.txt
+          cat hello.txt
+      - name: 4th step
+        run: |
+          pwd
+          ls -al
