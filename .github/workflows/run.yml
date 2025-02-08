@@ -11,4 +11,4 @@ jobs:
       - name: 2nd step
         run: |
           pwd
-          ll
+          ls -al
