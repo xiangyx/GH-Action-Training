@@ -8,3 +8,7 @@ jobs:
     steps:
       - name: 1st step
         run: echo yeahh!
+      - name: 2nd step
+        run: |
+          pwd
+          ll
