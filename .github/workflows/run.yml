@@ -15,6 +15,7 @@ jobs:
       - name: 3rd step create a file
         run: |
           echo "Hello World" > hello.txt
+          echo "can you see me?" >> hello.txt
           cat hello.txt
       - name: 4th step
         run: |
